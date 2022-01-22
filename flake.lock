@@ -1,0 +1,58 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1642700792,
+        "narHash": "sha256-XqHrk7hFb+zBvRg6Ghl+AZDq03ov6OshJLiSWOoX5es=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "846b2ae0fc4cc943637d3d1def4454213e203cba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "i3tree": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1429835021,
+        "narHash": "sha256-RDYO/iPOzJs5YldDCN2SBeZRY4qxrZZo1EedtgoIQwU=",
+        "owner": "sciurus",
+        "repo": "i3tree",
+        "rev": "7cb81e0a423294e22073e03700c210ccee1a9856",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sciurus",
+        "repo": "i3tree",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1642317590,
+        "narHash": "sha256-pXr5rujSz3+6UCTa08RLTkFcNcFMhAMsRZBZ9am9kyU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cbf106ac0784ba121f1503a044614dd004f35451",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "i3tree": "i3tree",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
